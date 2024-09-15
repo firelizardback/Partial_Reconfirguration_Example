@@ -1,9 +1,6 @@
-Question:
-Suppose there are two available modules for AES encryption and floating-point multiplication. Design a system which include one of them at once. But the system can switch to the another module during run-time based on partial reconfiguration mechanism.
+There are two available modules for AES encryption and floating-point multiplication. I want to design a system which include one of them at once. But the system can switch to the another module during run-time based on partial reconfiguration mechanism.
 
-Solution:
-
-1- I found these two VHDL modules in internet:
+1- These two VHDL modules are borrowed:
 
 1-1  A 32Bits floating-point multiplier [1]. It is a computational circuit with two inputs and one outputs and all are 32 bits. The VHDL code is in the ‘/Sources/hdl/mult32_float/mult32_float.vhd’ file.
 
